@@ -18,7 +18,7 @@ Running the prediction
 
 Now that we have a model, we can run the prediction. simulator.py takes care of this. The tournament is encoded in a separate file aptly called brazil_2014.tournament. It contains the various rounds and who's playing against who. When you run the simulator, it goes through all matches in the tournament. The ones that already have been played and are present in results.csv are taken as fact, the rest are simulated.
 
-Simulating a game works by looking up the score difference between two teams and looking up the outcome bucket for that difference and then make a weighted choice for the outcome, win, draw or loss.
+Simulating a game works by looking up the score difference between two teams and looking up the outcome bucket for that difference and then making a weighted choice for the outcome, win, draw or loss.
 We then use a weighted choice to pick a win, draw or loss for these matches based on that histogram.
 
 Again, this is not very sophisticated. The outcome is encoded as a goal difference, but always 2-0, 1-1 or 0-2. The knock-out phase is modelled as groups of 2, as is the final.
