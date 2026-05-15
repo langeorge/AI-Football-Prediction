@@ -16,7 +16,7 @@ The second thing calculate_scores.py does, is calculate a histogram from score d
 Running the prediction
 ----------------------
 
-Now that we have a model, we can run the prediction. simulator.py takes care of this. The tournament is encoded in a separate file aptly called brazil_1014.tournament. It contains the various rounds and who's playing aginst who. When you run the simulator, it goes through all matches in the tournament. The ones that already have been played and are present in results.csv are taken for fact, the result are simulated.
+Now that we have a model, we can run the prediction. simulator.py takes care of this. The tournament is encoded in a separate file aptly called brazil_2014.tournament. It contains the various rounds and who's playing against who. When you run the simulator, it goes through all matches in the tournament. The ones that already have been played and are present in results.csv are taken for fact, the result are simulated.
 
 Simulating a game works by looking up the score difference between two teams and looking up the outcome bucket for that difference and then make a weighted choice for the outcome, win, draw or loss.
 We then use a weighted choice to pick a win, draw or loss for this matches based on that histogram.
