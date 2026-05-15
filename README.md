@@ -1,7 +1,7 @@
 Football Predictions
 ====================
 
-Football predictions offers an open source model to predict the outcome of football tournaments. The current version is setup for the world cup 2014 in Brazil but it should be extendable for future tournaments. The whole approach is as simple as could possibly work to establish a baseline in predictions.
+Football predictions offers an open source model to predict the outcome of football tournaments. The current version is set up for the World Cup 2014 in Brazil but it should be extendable for future tournaments. The whole approach is as simple as could possibly work to establish a baseline in predictions.
 
 Building the model
 ------------------
