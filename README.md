@@ -21,9 +21,9 @@ Now that we have a model, we can run the prediction. simulator.py takes care of 
 Simulating a game works by looking up the score difference between two teams and looking up the outcome bucket for that difference and then make a weighted choice for the outcome, win, draw or loss.
 We then use a weighted choice to pick a win, draw or loss for this matches based on that histogram.
 
-Again, this is not very sophisticated. The outcome is encoded as a goal diference, but always 2-0, 1-1 or 0-2. The knock-out phase is modelled as groups of 2, as is the final.
+Again, this is not very sophisticated. The outcome is encoded as a goal difference, but always 2-0, 1-1 or 0-2. The knock-out phase is modelled as groups of 2, as is the final.
 
-By running the simulation 100 000 times, we get a nice distributon of outcomes:
+By running the simulation 100 000 times, we get a nice distribution of outcomes:
 
  * Brazil 35.55%
  * Argentina 13.29%
@@ -32,7 +32,7 @@ By running the simulation 100 000 times, we get a nice distributon of outcomes:
  * Netherlands 8.46%
  * Chile 6.76%
 
-At the time of writing the outcome is remarkable similar to the must more complicated model of fivethirtyeight at http://fivethirtyeight.com/interactives/world-cup/ 
+At the time of writing the outcome is remarkably similar to the much more complicated model of fivethirtyeight at http://fivethirtyeight.com/interactives/world-cup/ 
 
 
 
